@@ -10,6 +10,9 @@ a = int(input('Введите число: '))
 step = 1
 sum = 1
 
+if a < 0:
+    a = -a
+
 while step < a+1:
     sum *= step
     step += 1
