@@ -15,5 +15,5 @@ if a < 0:
 
 while step < a+1:
     sum *= step
+    print(sum, end=" ")
     step += 1
-print(sum)
